@@ -1,0 +1,11 @@
+// Add your JavaScript code here to handle form submission and any additional functionality
+document.getElementById('signup-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Get form data
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+
+    // Handle form data (e.g., send it to a server, show a confirmation message, etc.)
+    console.log(`Name: ${name}, Email: ${email}`);
+});
